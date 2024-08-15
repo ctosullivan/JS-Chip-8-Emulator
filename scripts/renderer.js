@@ -22,6 +22,8 @@ class Renderer {
     }
     let pixelLoc = x + y * this.cols;
     this.display[pixelLoc] ^= 1;
+
+    //function returns whether a pixel has been erased or not
     return !this.display[pixelLoc];
   }
   clear() {
