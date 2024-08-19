@@ -63,12 +63,11 @@ class Keyboard {
       },
       false
     );
+  }
+  // Add function to check if a certain key is pressed
 
-    // Add function to check if a certain key is pressed
-
-    function isKeyPressed(keyCode) {
-      return this.keysPressed[keyCode];
-    }
+  isKeyPressed(keyCode) {
+    return this.keysPressed[keyCode];
   }
 }
 
