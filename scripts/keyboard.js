@@ -43,10 +43,10 @@ class Keyboard {
       (e) => {
         let key = this.KEYMAP[e.key];
         this.keysPressed[key] = true;
-
+        console.log(key, typeof key);
         // Make sure onNextKeyPressed is initialised & pressed key actually maps to a Chip-8 key
-
-        if (this.onNextKeyPress !== null && key) {
+        // May have been an error in the original code as value of x key would be 0 which is falsy
+        if (this.onNextKeyPress !== null && key !== undefined) {
           this.onNextKeyPress(parseInt(key));
           this.onNextKeyPress = null;
         }

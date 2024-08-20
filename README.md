@@ -2,7 +2,6 @@
 
 This project was made to learn about Chip-8 and basic emulation by following Eric Grandt's excellent freeCodeCamp tutorial - https://www.freecodecamp.org/news/creating-your-very-own-chip-8-emulator/ | https://github.com/ericgrandt/chip8-emulator
 
-Chip-8 test rom is by corax89 - https://github.com/corax89/chip8-test-rom
 BLINKY rom is by Hans Christien Egeberg
 BLITZ rom is by David Winter
 

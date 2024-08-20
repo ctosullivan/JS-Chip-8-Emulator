@@ -22,7 +22,7 @@ function init() {
   startTime = then;
 
   cpu.loadSpritesIntoMemory();
-  cpu.loadRom("BLINKY");
+  cpu.loadRom("RPS.ch8");
   window.requestAnimationFrame(step);
 }
 
